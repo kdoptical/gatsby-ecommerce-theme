@@ -87,7 +87,7 @@ const Header = (prop) => {
         {/* header container */}
         <div className={styles.header}>
           <div className={styles.linkContainer}>
-            {/* <nav
+            <nav
               role={'presentation'}
               onMouseLeave={() => {
                 setShowMenu(false);
@@ -105,7 +105,7 @@ const Header = (prop) => {
                   {navObject.menuLabel}
                 </Link>
               ))}
-            </nav> */}
+            </nav>
           </div>
           <div
             role={'presentation'}
