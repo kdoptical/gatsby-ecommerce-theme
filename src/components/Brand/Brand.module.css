@@ -4,12 +4,12 @@
     cursor: pointer;
 }
 
-.main_logo { max-width: 90px; width: 100%; }
+.root .main_logo { max-width: 90px; width: 100%; }
 
 @media (max-width: 800px) {
     .root svg {
         width: 90px;
         height: 16.67px;
     }
-    .main_logo { max-width: 85px; width: 100%; }
+    .root .main_logo { max-width: 85px; width: 100%; }
 }

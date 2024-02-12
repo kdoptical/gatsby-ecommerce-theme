@@ -12,7 +12,7 @@ const Brand = (props) => {
       onClick={() => navigate('/')}
     >
       {/* <h4>SYDNEY</h4> */}
-      <img className='main_logo' src={header_logo} alt='main_logo' title="KD" />
+      <img className='main_logo' src={header_logo} alt='main_logo_KD' title="KD" />
       
     </div>
   );
